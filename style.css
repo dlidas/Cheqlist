@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: verdana, sans-serif;
+}
+
+.Header {
+    display: block;    
+    width: 100%;
+    height: fit-content;
+    background-color: grey;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 5px 0;
+    color: black;
+    font-size: 36px;
+    cursor: default;
+    user-select: none;
+}
+
+.Header span {
+    color: orange;
+}
+
+.Toolbar {
+    display: block;    
+    width: 100%;
+    height: fit-content;
+    background-color: darkgrey;
+    border-bottom: 1px solid black;  
+    padding: 5px;  
+}
+
+.Toolbar span {
+    font-size: 16px;
+    cursor: default;
+}
+
+.Toolbar button {
+    display: inline;
+    border: 1px solid black;
+    background-color: lightgrey;
+    cursor: pointer;    
+}
+
+.Toolbar button:hover {
+    border: 1px solid black;
+    background-color: white;    
+}
+
+#content {
+    padding: 5px;
+}
+
+.task {
+    border: 2px solid black;
+    width: 25%;
+    margin: 5px 0;
+    padding: 5px;
+    background-image: linear-gradient(white,lightgrey);
+}
+
+/* .title {
+    
+} */
+
+.progressContainer {
+    width: 100%;
+    height: 14px;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    margin: 3px 0;
+}
+
+.progressBar {
+    height: inherit;
+    width: 0;
+    background-color: cornflowerblue;
+    transition: width 1s;   
+    /* border-radius: 0 3px 3px 0; */
+}
+
+.subTask {
+    margin: 5px;
+}
+
+.subTaskButton {
+    width: fit-content;
+    border: 1px solid black;
+    background-color: lightgrey;
+    cursor: pointer; 
+}
+
+.subTaskButton:hover {
+    background-color: white;    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    margin: 5px 0;
+}
+
+.checkBox {
+    display: inline;
+    margin-left: 10px;
+    height: 16px;
+    width: 16px;
+    border: 1px solid lightgrey;
+    outline: 1px solid black;
+    /* border-radius: 5px; */
+    background-color: lightgrey;
+}
+
+.checkBox:hover {
+    background-color: white;    
+}
